@@ -27,6 +27,7 @@ Doctor.prototype.lookup = function(medicalIssue, results) {
        var state = response.data[i].practices[0].visit_address.state;
        states.push(state);
       }
+      results(names, numbers, addresses, cities, states);
     })
     .fail(function(error){
       console.log("fail");
