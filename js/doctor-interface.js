@@ -2,7 +2,7 @@ var Doctor = require('./../js/doctor.js').doctorModule;
 
 var results = function(name, number, address, city, state) {
 
-}
+};
 
 
 
