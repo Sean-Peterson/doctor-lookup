@@ -1,42 +1,49 @@
-# _Ping Pong_
+# _Doctor Lookup_
 
-#### _A ping pong web app_
+#### _A doctor lookup web app_
 
 #### By _**Sean Peterson**_
 https://github.com/Sean-Peterson
 
 ## Description
 
-_A web app that will turn a number into a game of ping pong._
+_A web app to lookup the best doctor to aid your condition._
 
 ## Specs
 
-* _Scope: Take a user inputted number, make into numbered array from 1 to X, change numbers evenly divisible by 3 and 5 to ping-pong, change numbers evenly divisible by 5 to pong, and change numbers evenly divisible by 3 to ping. After the transformation, display results back to user in a list form._
-* _Input: User inputted whole integer. Output: X_
-* _Convert X into array numbers counting from 1 to X. Output: [1 to X]_
-* _Input: y = [1 to X] Output: if n of Y % 3 = 0 and n of Y % 5 = 0 then replace with ping-pong_
-* _Input: y = [1 to X] Output: if n of Y % 5 = 0 then replace with pong_
-* _Input: y = [1 to X] Output: if n of Y % 3 = 0 then replace with ping_
-* _Input: array of numbers and words. Output: List of numbers and words from 1 to X with replaced values._
+* _Scope: Create a website where users may enter a medical issue (ie: “toothache”) into a form, submit it, and receive a list of doctors they may seek out to help with their medical issue._
+* _Input: toothache. Output: search term_
+* _Input: Search term. Output: argument for object prototype method that calls an api request from Better Doctors API_
+* _Input: results from api call Output: json object_
+* _Input: json object Output: array of doctors_
+* _Input: array of doctors Output: list of doctors name's and phone numbers appended to the view_
 
 ## Setup/Installation Requirements
 
-* _Clone this repository and open index.html in your browser. If you would rather use the commandline then change directory into the top level of the cloned repository and then, for mac run the following command in your terminal: open index.html. For a PC run start index.html"._
+1. _Fork and clone this repository onto your desktop from_ [gitHub](https://github.com/Sean-Peterson/library-project).
+2. _In terminal: npm install_
+3. _In terminal: bower install_
+4. _In terminal: gulp build_
+5. _In terminal: gulp serve_
 
 ## Known Bugs
 
-_No known bugs at this time._
+_None so far_
 
 ## Support and contact details
 
-_If you run into any problems then let me know or feel free to contribute to the code._
+_Please contact seanpeterson11@gmail.com with concerns or comments._
 
 ## Technologies Used
 
-_HTML_
-_JavaScipt_
-_jQuery_
+* _HTML_
+* _CSS_
+* _SCSS_
+* _JavaScipt_
+* _Node_
 
 ### License
+
+*MIT license*
 
 Copyright (c) 2017 **_Sean Peterson_**
