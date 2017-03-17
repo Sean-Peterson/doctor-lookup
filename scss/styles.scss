@@ -1,0 +1,44 @@
+$darkBlue: #000033;
+$red: #ff0000;
+
+body{
+  color: $darkBlue;
+}
+
+h1{
+  font-size: 70px;
+}
+
+li{
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+.doctor-results{
+  padding-right: 80px;
+  // border: solid $red;
+  margin-top: 20px;
+}
+
+.header, .doctor-results, .doctors {
+  text-align: center;
+}
+
+.header{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#doctor-list{
+  list-style-type: none;
+}
+
+#search-label{
+  font-size: 18px;
+}
+
+#results-header{
+  color: $red;
+  font-size: 25px;
+}
