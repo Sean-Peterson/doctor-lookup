@@ -1,13 +1,13 @@
 # _Doctor Lookup_
 
-#### _A doctor lookup web app_
+#### _A doctor search web app using an api_
 
 #### By _**Sean Peterson**_
 https://github.com/Sean-Peterson
 
 ## Description
 
-_A web app to lookup the best doctor to aid your condition._
+_A web app to lookup the best doctor to aid your medical issue._
 
 ## Specs
 
@@ -15,8 +15,8 @@ _A web app to lookup the best doctor to aid your condition._
 * _Input: toothache. Output: search term_
 * _Input: Search term. Output: argument for object prototype method that calls an api request from Better Doctors API_
 * _Input: results from api call Output: json object_
-* _Input: json object Output: array of doctors_
-* _Input: array of doctors Output: list of doctors name's and phone numbers appended to the view_
+* _Input: json object Output: arrays of information about returned doctors_
+* _Input: array of information Output: list of doctors names, phone numbers, and addresses appended to the view_
 
 ## Setup/Installation Requirements
 
